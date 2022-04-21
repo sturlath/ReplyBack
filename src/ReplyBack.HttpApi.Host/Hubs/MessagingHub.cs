@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.SignalR;
 using System.Threading.Tasks;
 using Volo.Abp.AspNetCore.SignalR;
 
-namespace BSR.Beinni.Hubs
+namespace ReplyBack
 {
     [Authorize]
     public class MessagingHub : AbpHub
